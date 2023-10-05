@@ -7,10 +7,10 @@ private:
     double profit;
 
 public:
-    // Default constructor
+    
     PlasticTransaction() {
-        costPrice = 10.0;  // Cost price of 1 kg plastic
-        sellingPrice = 12.0;  // Selling price of 1 kg plastic
+        costPrice = 10.0; 
+        sellingPrice = 12.0;  
         profit = sellingPrice - costPrice;
     }
 
@@ -20,10 +20,10 @@ public:
 };
 
 int main() {
-    // Create an instance of the PlasticTransaction class
+   
     PlasticTransaction transaction;
 
-    // Calculate and display the profit
+   
     double profit = transaction.getProfit();
     std::cout << "Kiran earns " << profit << " rupees by selling 1 kg of plastic." << std::endl;
 
