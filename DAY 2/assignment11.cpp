@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int oldest_painting = 0; // Initialize to 0 years (assuming 0 represents unknown)
+    int oldest_painting = 0;
 
     int painting1 = 4200;
     int painting2 = 8500;
